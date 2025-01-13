@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require("body-parser");
 const cors = require("cors"); // Import cors middleware
 const app = express()
-const port = 3000
+const port = 80
 app.use(cors({
     origin:'http://localhost:5500'
 }));
